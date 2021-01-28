@@ -6,7 +6,7 @@ public class Main {
         String cityName = "Columbus";
         int zipCode = 43119;
         int[] highTemp = {32,25,27,40,45};
-        int avg = 0;
+        double avg = 0;
 
         for (int j : highTemp) {
             avg += j;
